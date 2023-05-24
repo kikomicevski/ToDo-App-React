@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { PlusIcon } from '@heroicons/react/24/solid'
+import { PlusIcon } from '@heroicons/react/24/solid';
 
 const CustomForm = ({ addTask }) => {
   const [task, setTask] = useState("");
